@@ -46,8 +46,28 @@ else if (status1 === 404)
 
     // for (let i = 0; i < 3; i++) { console.log(i); }
 
-    for (let i = 0; i < 5; i++) 
+    /*for (let i = 0; i < 5; i++) 
         { 
             if (i === 3) break; 
         } 
-        console.log(i);
+        console.log(i);*/
+
+    const greet2 = function (name1) {
+    return `Hello, ${name1}!`;
+}
+
+ console.log(greet2("Bob"));
+//greet2("Bob");
+
+
+
+const sayHi = function (name) {
+    return `Hi, ${name}!`;
+};
+
+console.log(sayHi("Bobweb"));
+
+const steps = ["open", "fill"]; 
+const alias = steps; 
+steps.push("submit"); 
+console.log(alias.length);
